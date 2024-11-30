@@ -408,7 +408,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_in_host_total) by (HostName)",
+              "expr": "max(kubearmor_alerts_in_host_total) by (HostName)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -502,7 +502,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_in_pod_total) by (PodName)",
+              "expr": "max(kubearmor_alerts_in_pod_total) by (PodName)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -596,7 +596,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_in_namespace_total) by (NamespaceName)",
+              "expr": "max(kubearmor_alerts_in_namespace_total) by (NamespaceName)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -690,7 +690,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_in_container_total) by (ContainerName)",
+              "expr": "max(kubearmor_alerts_in_container_total) by (ContainerName)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -784,7 +784,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_policy_logs_total) by (PolicyName)",
+              "expr": "max(kubearmor_alerts_with_policy_total) by (PolicyName)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -878,7 +878,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_with_severity_total) by (Severity)",
+              "expr": "max(kubearmor_alerts_with_severity_total) by (Severity)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -972,7 +972,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_with_type_total) by (Type)",
+              "expr": "max(kubearmor_alerts_with_type_total) by (Type)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -1066,7 +1066,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_with_operation_total) by (Operation)",
+              "expr": "max(kubearmor_alerts_with_operation_total) by (Operation)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
@@ -1160,7 +1160,7 @@ data:
           "steppedLine": false,
           "targets": [
             {
-              "expr": "max(kubearmor_relay_logs_with_action_total) by (Action)",
+              "expr": "max(kubearmor_alerts_with_action_total) by (Action)",
               "interval": "",
               "legendFormat": "",
               "refId": "A"
